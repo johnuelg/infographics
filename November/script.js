@@ -62,11 +62,11 @@ series.slices.template.adapters.add("fill", function (fill, target) {
 // Set data with automatic percentage computation
 // https://www.amcharts.com/docs/v5/charts/percent-charts/sliced-chart/#Setting_data
 var data = [
-  { value: 10, category: "Level 1" },
-  { value: 30, category: "Level 2" },
-  { value: 90, category: "Level 3" },
-  { value: 150, category: "Level 4" },
-  { value: 300, category: "Level 5" }
+  { value: 11, category: "Level 1" },
+  { value: 106, category: "Level 2" },
+  { value: 3174, category: "Level 3" },
+  { value: 2203, category: "Level 4" },
+  { value: 436, category: "Level 5" }
 ];
 
 var totalValue = data.reduce((sum, item) => sum + item.value, 0);
