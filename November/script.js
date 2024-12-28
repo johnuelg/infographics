@@ -53,7 +53,7 @@ series.slices.template.adapters.add("fill", function (fill, target) {
       case "Level 4":
         return am5.color("#0fb259");
       case "Level 5":
-        return am5.color("#b1b3b5");
+        return am5.color("#e0e0e0");
     }
   }
   return fill;
